@@ -87,7 +87,7 @@ a:hover {
 }
 
 .tm-brand-container {
-  padding: 75px 110px;
+  padding: 74px 110px;
 }
 
 .tm-brand-name {
@@ -329,8 +329,15 @@ p {
 
 @media (max-width: 572px) {
   .tm-brand-container {
-    padding: 45px;
+    
+    padding: 5px;
   }
+  .tm-brand-name{
+    font-size: 35px;
+    color:black;
+
+  }
+ 
 }
 
 @media (max-width: 443px) {
@@ -353,7 +360,7 @@ li{
 }
 nav{
   width: 100vw;
-  background-color: #D6EFFF;
+  background-color: white;
 }
 
 
@@ -389,13 +396,14 @@ a:hover{
     margin: 0;
   }
  /* makes sure that the a tag will take the entire screen*/
-  a{
-    display: block;
-  }
+ a{
+  display: none;
 }
 
+  }
+
 @media only screen and (max-width: 500px) {
-  ....
+
  
  button{
    /*makes the button visible*/
@@ -412,6 +420,7 @@ a:hover{
    
    cursor: pointer;
  }
+ 
 }
 
 .sticky {
